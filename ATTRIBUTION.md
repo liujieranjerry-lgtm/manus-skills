@@ -2,6 +2,32 @@
 
 本仓库是个人技能集合，其中有相当一部分来自公开的开源项目。这里列出可以确认的来源与许可；技能目录内自带的 `LICENSE` / `LICENSE.txt` 一律保留，其条款优先。
 
+## 疑似来自 Matt Pocock 的 skills 仓库（未逐一核实许可，公开发布前建议确认）
+
+- `ask-matt`
+- `setup-matt-pocock-skills`
+- `review`
+- `triage`
+- `to-issues`
+- `to-prd`
+- `grilling`
+- `grill-me`
+- `grill-with-docs`
+- `implement`
+- `tdd`
+- `teach`
+- `domain-modeling`
+- `codebase-design`
+- `handoff`
+- `edit-article`
+- `prototype`
+- `scaffold-exercises`
+- `setup-pre-commit`
+- `migrate-to-shoehorn`
+- `resolving-merge-conflicts`
+- `diagnosing-bugs`
+- `improve-codebase-architecture`
+
 ## Firecrawl 官方技能（ISC License，作者 firecrawl）
 
 - `firecrawl-website-design-clone`

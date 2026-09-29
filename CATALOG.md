@@ -1,6 +1,6 @@
 # 技能清单
 
-共 89 个技能。导入方式：Manus → Skills → + Add → Import from GitHub → 粘贴「导入链接」。
+共 95 个技能。导入方式：Manus → Skills → + Add → Import from GitHub → 粘贴「导入链接」。
 
 | 技能 | 说明 | 备注 | 导入链接 |
 | --- | --- | --- | --- |
@@ -19,12 +19,15 @@
 | `code-explainer` | Explains code in plain, logical Chinese for smart learners without a programming background. Use when the user | 纯指令 + 示例 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/code-explainer) |
 | `codebase-design` | Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interfac |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/codebase-design) |
 | `content-research-writer` | Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating o |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/content-research-writer) |
+| `convert-documents-to-markdown` | Convert Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx), OpenDocument (.odt, .ods, .odp), RT | 调用 `npx -y @firecrawl/anydoc`，需要 Node 20+，无需密钥 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/convert-documents-to-markdown) |
 | `decision-mapping` | Turn a loose idea into a sequenced map of investigation tickets, then drive them to resolution one at a time. |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/decision-mapping) |
+| `diagnosing-bugs` | Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or r | 纯指令，附一个可选的循环模版脚本 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/diagnosing-bugs) |
 | `domain-modeling` | Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiqui |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/domain-modeling) |
 | `edit-article` | Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wa |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/edit-article) |
 | `emil-design-eng` | This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the inv |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/emil-design-eng) |
 | `emilkowalski-prototype` | Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/emilkowalski-prototype) |
 | `emotional-arc-designer` | One sentence - what this skill does and when to invoke it |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/emotional-arc-designer) |
+| `emotional-regulation` | Daily emotional regulation practices and anger management techniques. Use when someone overreacts to situation | 纯指令，已移除市场元数据文件 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/emotional-regulation) |
 | `find-animation-opportunities` | Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-o |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/find-animation-opportunities) |
 | `firecrawl-build-interact` | Integrate Firecrawl `/interact` into product code for dynamic pages and browser actions after scraping. Use wh |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-build-interact) |
 | `firecrawl-build-scrape` | Integrate Firecrawl `/scrape` into product code for single-page extraction. Use when an app already has a URL  |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-build-scrape) |
@@ -63,6 +66,7 @@
 | `literature-review` | Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including se |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/literature-review) |
 | `luopan` | 行业研究引擎。你说一个行业，我还你一张看得懂、用得上的产业地图。 触发词："帮我了解[行业]"、"研究一下[行业]"、"[行业]行业分析"、"[行业]入门" 适用：内容创作者、创业者、求职者需要快速理解一个陌生行业。 不 |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/luopan) |
 | `market-research` | Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source a |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/market-research) |
+| `migrate-to-shoehorn` | Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, w | 重构测试代码里的类型断言，纯指令 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/migrate-to-shoehorn) |
 | `nature-reader` | Build full-paper Chinese-English side-by-side, figure/table/equation-aware, source-grounded Markdown readers f | 已内联 nature-shared 的共享参考文件，可独立导入 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/nature-reader) |
 | `nature-ref-verifier` | 对学术文献逐条执行多源交叉验证，逐字段对比作者、标题、年份、卷期、页码， 标记卷年/DOI年冲突、作者顺序异常、页码偏差等问题，输出结构化验证报告。 可批量处理整篇论文/开题报告的参考文献列表，也可单条校验，支持与 Zo | Zotero 本地库为可选增强，无 Zotero 时走联网核验 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/nature-ref-verifier) |
 | `obsidian-vault` | Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to  |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/obsidian-vault) |
@@ -82,12 +86,14 @@
 | `scene-distillation-zine-v1-3` | Transform a user-supplied photo into an expressive minimal zine poster made only from original source-derived  |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/scene-distillation-zine-v1-3) |
 | `scenes-gathered-zine-v1-3` | Transform a user-supplied photo into a vertical 3:5 Gathered Scenes Zine poster that anchors truthful photogra |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/scenes-gathered-zine-v1-3) |
 | `setup-matt-pocock-skills` | Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/setup-matt-pocock-skills) |
+| `setup-pre-commit` | Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use w | 在目标仓库里装 Husky 钩子，纯指令 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/setup-pre-commit) |
 | `sociology-research-methods` | Sociological research methods from observation to quantitative analysis |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/sociology-research-methods) |
 | `tdd` | Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/tdd) |
 | `teach` | Teach the user a new skill or concept, within this workspace. |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/teach) |
 | `to-issues` | Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bulle |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/to-issues) |
 | `to-prd` | Turn the current conversation into a PRD and publish it to the project issue tracker — no interview, just synt |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/to-prd) |
 | `triage` | Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, an |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/triage) |
+| `ui-ux-pro-max` | UI/UX design intelligence with searchable database | 自带 CSV 设计库，靠 `python scripts/search.py` 检索，Manus 沙箱可直接跑 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ui-ux-pro-max) |
 | `weread-skills` | 微信读书助手 — 搜索书籍、管理书架、查看笔记划线、浏览书评、阅读统计、发现推荐好书 |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/weread-skills) |
 | `writing-beats` | Shape an article as a journey of beats, choose-your-own-adventure style. The user picks a starting beat from t |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/writing-beats) |
 | `writing-fragments` | Grilling session that mines the user for fragments — heterogeneous nuggets of writing (claims, vignettes, shar |  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/writing-fragments) |
