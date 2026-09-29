@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | `academic-paper` | 12-agent academic paper writing pipeline. 10 modes (full/plan/outline/revision/revision-coach/abstract/lit-rev | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/academic-paper) |
 | `academic-paper-review` | Use this skill when the user requests to review, analyze, critique, or summarize academic papers, research art | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/academic-paper-review) |
-| `academic-researcher` | / | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/academic-researcher) |
+| `academic-researcher` | Academic research assistant for literature reviews, paper analysis, and scholarly writing. Use when: reviewing | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/academic-researcher) |
 | `ai-selflearning` | 把用户提供的技术材料（链接、文件、粘贴文本）整理成适合 AI 自学的“知识版”中文学习文章，只依据给定材料写作，不读取用户既有笔记。触发场景：用户给出一篇技术文章、仓库、课程章节或链接，要求“知识版”“通用知识版”“整理 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ai-selflearning) |
 | `animation-vocabulary` | Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/animation-vocabulary) |
 | `anti-defensive-writing` | Reduce defensive writing in drafts and revisions by removing unnecessary caveats, disclaimers, hedges, apology | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/anti-defensive-writing) |
@@ -30,7 +30,7 @@
 | `firecrawl-company-directories` | Extract structured company lists from directories with Firecrawl. Use for scraping YC, Crunchbase, Product Hun | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-company-directories) |
 | `firecrawl-competitive-intel` | Monitor competitor pricing, features, changelogs, dashboards, and product changes with Firecrawl. Use for recu | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-competitive-intel) |
 | `firecrawl-dashboard-reporting` | Pull metrics from analytics dashboards and internal web tools with Firecrawl browser. Use when the user needs  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-dashboard-reporting) |
-| `firecrawl-deep-research` | / | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-deep-research) |
+| `firecrawl-deep-research` | Produce an intensive, cited analytical report: executive summary, multi-angle findings, contrarian views, open | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-deep-research) |
 | `firecrawl-demo-walkthrough` | Walk through a product's key flows with Firecrawl browser and produce a structured UX/product walkthrough. Use | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-demo-walkthrough) |
 | `firecrawl-knowledge-base` | Build a knowledge base from web content with Firecrawl. Use for local reference docs, RAG-ready chunks, fine-t | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-knowledge-base) |
 | `firecrawl-knowledge-ingest` | Ingest public or authenticated knowledge bases and docs portals with Firecrawl browser. Use for JS-heavy docs, | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/firecrawl-knowledge-ingest) |
@@ -48,20 +48,20 @@
 | `grill-with-docs` | A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go. | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/grill-with-docs) |
 | `grilling` | Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before b | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/grilling) |
 | `handoff` | Compact the current conversation into a handoff document for another agent to pick up. | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/handoff) |
-| `humanizer-zh` | / | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/humanizer-zh) |
-| `ielts-listening` | > | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ielts-listening) |
-| `ielts-reading` | > | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ielts-reading) |
-| `ielts-speaking` | > | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ielts-speaking) |
-| `ielts-writing` | > | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ielts-writing) |
+| `humanizer-zh` | 去除文本中的 AI 生成痕迹。适用于编辑或审阅文本，使其听起来更自然、更像人类书写。 基于维基百科的"AI 写作特征"综合指南。检测并修复以下模式：夸大的象征意义、 宣传性语言、以 -ing 结尾的肤浅分析、模糊的归因、 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/humanizer-zh) |
+| `ielts-listening` | IELTS Listening analyst — answer location, signal words, and trap analysis from transcript. Triggers on: 雅思听力、 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ielts-listening) |
+| `ielts-reading` | IELTS Reading analyst — per-question location, synonym mapping, and trap analysis. Triggers on: 雅思阅读、阅读解析、阅读真题 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ielts-reading) |
+| `ielts-speaking` | IELTS Speaking Part 2 coach — cue card linking (串题), full 2-minute answer, and material optimization. No audio | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ielts-speaking) |
+| `ielts-writing` | IELTS Writing full coach — prompt analysis, band scoring, and model essay for Task 1 and Task 2. Triggers on:  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/ielts-writing) |
 | `implement` | Implement a piece of work based on a PRD or set of issues. | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/implement) |
 | `improve-animations` | Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/improve-animations) |
 | `improve-codebase-architecture` | Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whicheve | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/improve-codebase-architecture) |
 | `interview-prep-brief` | 根据用户要面试的岗位 JD、公司、候选人背景、已有题库或飞书求职知识库，生成岗位专属面试备书文档。适用于用户说“围绕这个岗位准备面试”“生成可能面试题和答案”“模拟面试官追问”“从 JD 反推面试题”“调用大厂面试真题解 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/interview-prep-brief) |
 | `literature-review` | Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including se | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/literature-review) |
-| `luopan` | / | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/luopan) |
+| `luopan` | 行业研究引擎。你说一个行业，我还你一张看得懂、用得上的产业地图。 触发词："帮我了解[行业]"、"研究一下[行业]"、"[行业]行业分析"、"[行业]入门" 适用：内容创作者、创业者、求职者需要快速理解一个陌生行业。 不 | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/luopan) |
 | `market-research` | Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source a | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/market-research) |
 | `obsidian-vault` | Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to  | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/obsidian-vault) |
-| `philosopher` | > | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/philosopher) |
+| `philosopher` | A cross-cutting cognitive mode for sitting with design problems before rushing to solve them. Part of the Inte | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/philosopher) |
 | `philosophy` | Display Oracle philosophy — the 5 Principles + Rule 6. Use when user asks about principles, "nothing deleted", | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/philosophy) |
 | `philosophy-research-guide` | Research methods and analytical frameworks for philosophical inquiry and scho... | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/philosophy-research-guide) |
 | `pick-ui-library` | Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, chart | [导入](https://github.com/liujieranjerry-lgtm/manus-skills/tree/main/skills/pick-ui-library) |
