@@ -1,0 +1,3 @@
+interface:
+  display_name: "AI 自学"
+  short_description: "只依据给定技术材料，整理成高密度中文知识文章"
